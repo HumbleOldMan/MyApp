@@ -327,8 +327,8 @@ namespace MyApp
 
             try
             {
-                int x = int.Parse(txtAmtFull.Text, CultureInfo.InvariantCulture.NumberFormat);
-                int y = int.Parse(txtAmtSmall.Text, CultureInfo.InvariantCulture.NumberFormat);
+                float x = float.Parse(txtAmtFull.Text, CultureInfo.InvariantCulture.NumberFormat);
+                float y = float.Parse(txtAmtSmall.Text, CultureInfo.InvariantCulture.NumberFormat);
 
                 // If an exception occurs in the following code, then the finally will be executed
                 // and the exception will be throw
@@ -389,7 +389,7 @@ namespace MyApp
         {
             try
             {
-                int x = int.Parse(txtHalfDayCost.Text, CultureInfo.InvariantCulture.NumberFormat);
+                float x = float.Parse(txtHalfDayCost.Text, CultureInfo.InvariantCulture.NumberFormat);
 
                 // If an exception occurs in the following code, then the finally will be executed
                 // and the exception will be throw
@@ -446,7 +446,7 @@ namespace MyApp
         {
             try
             {
-                int x = int.Parse(txtFullDayCost.Text, CultureInfo.InvariantCulture.NumberFormat);
+                float x = float.Parse(txtFullDayCost.Text, CultureInfo.InvariantCulture.NumberFormat);
 
                 // If an exception occurs in the following code, then the finally will be executed
                 // and the exception will be throw
